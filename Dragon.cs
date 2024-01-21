@@ -42,7 +42,7 @@ namespace Dragons_With_AK_47
             {
                 if (usedHashM)
                 {
-                    Console.WriteLine("Placeholder no spoilers");
+                    Console.WriteLine("El Aura del dragón parece apagarse, cuidado con los cambios que haces, el dragón sabe que en tu vida has usado un Breakpoint.");
                 }
 
             }

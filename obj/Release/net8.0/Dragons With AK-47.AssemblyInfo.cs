@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Dragons With AK-47")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+17012e4f9b74c46141da7e80bae7d87da3cd6741")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0d3ca15e086000a786ca9a798f07a3c4bf0cfbc5")]
 [assembly: System.Reflection.AssemblyProductAttribute("Dragons With AK-47")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Dragons With AK-47")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

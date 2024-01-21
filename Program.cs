@@ -40,12 +40,12 @@ class Draongs_With_AK_47
                         jugador.PlayerShoot();
                         jugador.TakeDamage(dragonjs.GetDamage());
                         Console.WriteLine("Disparas con toda la furia de la madre patria al dragón!");
-                        Console.WriteLine("Le inflinges 7 puntos de daño al dragón parecen quedarle {0} puntos de vida, ten cuidado.", dragonjs.health);
+                        Console.WriteLine("Le inflinges 5 puntos de daño al dragón parecen quedarle {0} puntos de vida, ten cuidado.", dragonjs.health);
                         Console.WriteLine("El dragón te golpea con la cola burándose.");
                         Console.WriteLine("Pulsa INTRO para continuar");
                         Console.ReadLine();
                         Console.Clear();
-                        if (dragonjs.skillCounter > 0)
+                        if (dragonjs.skillCounter >= 0)
                         {
                             dragonjs.DecreaseSkillCounter();
                             dragonjs.Heal();
@@ -68,7 +68,7 @@ class Draongs_With_AK_47
                         Console.WriteLine("Pulsa INTRO para continuar");
                         Console.ReadLine();
                         Console.Clear();
-                        if (dragonjs.skillCounter > 0)
+                        if (dragonjs.skillCounter >= 0)
                         {
                             dragonjs.DecreaseSkillCounter();
                             dragonjs.Heal();
@@ -157,7 +157,7 @@ class Draongs_With_AK_47
                     }
                     else
                     {
-                        jugador.Heal(20);
+                        jugador.Heal(10);
                         jugador.chutado = true;
                         dragonjs.usedHashM = true;
                         dragonjs.IncreaseSkillCounter();
