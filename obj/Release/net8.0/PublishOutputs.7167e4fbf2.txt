@@ -1,0 +1,5 @@
+C:\Users\Borja\Desktop\Programación\DWAK47\Dragons With AK-47.exe
+C:\Users\Borja\Desktop\Programación\DWAK47\Dragons With AK-47.dll
+C:\Users\Borja\Desktop\Programación\DWAK47\Dragons With AK-47.deps.json
+C:\Users\Borja\Desktop\Programación\DWAK47\Dragons With AK-47.runtimeconfig.json
+C:\Users\Borja\Desktop\Programación\DWAK47\Dragons With AK-47.pdb

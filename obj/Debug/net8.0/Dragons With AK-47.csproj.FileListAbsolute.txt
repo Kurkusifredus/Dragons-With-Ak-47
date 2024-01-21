@@ -1,0 +1,14 @@
+C:\Users\Borja\Desktop\Programación\Dragons With AK-47\bin\Debug\net8.0\Dragons With AK-47.exe
+C:\Users\Borja\Desktop\Programación\Dragons With AK-47\bin\Debug\net8.0\Dragons With AK-47.deps.json
+C:\Users\Borja\Desktop\Programación\Dragons With AK-47\bin\Debug\net8.0\Dragons With AK-47.runtimeconfig.json
+C:\Users\Borja\Desktop\Programación\Dragons With AK-47\bin\Debug\net8.0\Dragons With AK-47.dll
+C:\Users\Borja\Desktop\Programación\Dragons With AK-47\bin\Debug\net8.0\Dragons With AK-47.pdb
+C:\Users\Borja\Desktop\Programación\Dragons With AK-47\obj\Debug\net8.0\Dragons With AK-47.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Borja\Desktop\Programación\Dragons With AK-47\obj\Debug\net8.0\Dragons With AK-47.AssemblyInfoInputs.cache
+C:\Users\Borja\Desktop\Programación\Dragons With AK-47\obj\Debug\net8.0\Dragons With AK-47.AssemblyInfo.cs
+C:\Users\Borja\Desktop\Programación\Dragons With AK-47\obj\Debug\net8.0\Dragons With AK-47.csproj.CoreCompileInputs.cache
+C:\Users\Borja\Desktop\Programación\Dragons With AK-47\obj\Debug\net8.0\Dragons With AK-47.dll
+C:\Users\Borja\Desktop\Programación\Dragons With AK-47\obj\Debug\net8.0\refint\Dragons With AK-47.dll
+C:\Users\Borja\Desktop\Programación\Dragons With AK-47\obj\Debug\net8.0\Dragons With AK-47.pdb
+C:\Users\Borja\Desktop\Programación\Dragons With AK-47\obj\Debug\net8.0\Dragons With AK-47.genruntimeconfig.cache
+C:\Users\Borja\Desktop\Programación\Dragons With AK-47\obj\Debug\net8.0\ref\Dragons With AK-47.dll

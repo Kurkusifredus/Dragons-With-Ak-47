@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Dragons With AK-47/1.0.0": {
+        "runtime": {
+          "Dragons With AK-47.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Dragons With AK-47/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
