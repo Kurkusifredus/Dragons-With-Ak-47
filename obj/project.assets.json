@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Borja\\Desktop\\Programación\\Dragons With AK-47\\Dragons With AK-47.csproj",
+      "projectUniqueName": "C:\\Users\\Borja\\Desktop\\Programación\\Git\\Dragons-With-Ak1\\Dragons-With-Ak-47\\Dragons With AK-47.csproj",
       "projectName": "Dragons With AK-47",
-      "projectPath": "C:\\Users\\Borja\\Desktop\\Programación\\Dragons With AK-47\\Dragons With AK-47.csproj",
+      "projectPath": "C:\\Users\\Borja\\Desktop\\Programación\\Git\\Dragons-With-Ak1\\Dragons-With-Ak-47\\Dragons With AK-47.csproj",
       "packagesPath": "C:\\Users\\Borja\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Borja\\Desktop\\Programación\\Dragons With AK-47\\obj\\",
+      "outputPath": "C:\\Users\\Borja\\Desktop\\Programación\\Git\\Dragons-With-Ak1\\Dragons-With-Ak-47\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
