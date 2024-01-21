@@ -49,7 +49,8 @@ class Draongs_With_AK_47
                         {
                             dragonjs.DecreaseSkillCounter();
                             dragonjs.Heal();
-                            Console.WriteLine("Cuando le disparas mientras usa su aura se cura la mitad del daño que le causas redondeando hacia arriba el muy tramposo!, se nota que sabe sobre recursividad");
+                            Console.WriteLine("Cuando le disparas mientras usa su aura se cura la mitad del daño que le causas redondeando hacia arriba el muy tramposo!");
+                            Console.WriteLine("Se nota que sabe sobre recursividad");
                             Console.WriteLine("El dragón tiene actualmente {0} puntos de vida", dragonjs.health);
                             Console.WriteLine("Pulsa INTRO para continuar");
                             Console.ReadLine();
@@ -71,7 +72,8 @@ class Draongs_With_AK_47
                         {
                             dragonjs.DecreaseSkillCounter();
                             dragonjs.Heal();
-                            Console.WriteLine("Cuando le disparas mientras usa su aura se cura la mitad del daño que le causas redondeando hacia arriba el muy tramposo!, se nota que sabe sobre recursividad");
+                            Console.WriteLine("Cuando le disparas mientras usa su aura se cura la mitad del daño que le causas redondeando hacia arriba el muy tramposo!");
+                            Console.WriteLine("Se nota que sabe sobre recursividad");
                             Console.WriteLine("El dragón tiene actualmente {0} puntos de vida", dragonjs.health);
                             Console.WriteLine("Pulsa INTRO para continuar");
                             Console.ReadLine();
@@ -143,16 +145,29 @@ class Draongs_With_AK_47
                     break;
 
                 case "7":
-
-                    jugador.Heal(20);
-                    dragonjs.usedHashM = true;
-                    dragonjs.IncreaseSkillCounter();
-                    Console.WriteLine("Te curas 10 puntos de vida. tienes actualmente {0}",jugador.health);
-                    Console.WriteLine("Te quedan {0}, jeringuillas de adrenalina.", jugador.chutes);
-                    Console.WriteLine("El dragón emite un aura de color cobre a su alrededor, creo que va a utilizar su habilidad secreta, el hash-map.");
-                    Console.WriteLine("Pulsa INTRO para continuar");
-                    Console.ReadLine();
-                    Console.Clear();
+                    if (jugador.chutes <= 0)
+                    {
+                        Console.WriteLine("Lo siento pero no te quedan jeringuillas!...En realidad, no lo siento, no siento nada.");
+                        dragonjs.IncreaseSkillCounter();
+                        dragonjs.usedHashM = true;
+                        Console.WriteLine("El dragón emite un aura de color cobre a su alrededor, creo que va a utilizar su habilidad secreta, el hash-map.");
+                        Console.WriteLine("Pulsa INTRO para continuar");
+                        Console.ReadLine();
+                        Console.Clear();
+                    }
+                    else
+                    {
+                        jugador.Heal(20);
+                        jugador.chutado = true;
+                        dragonjs.usedHashM = true;
+                        dragonjs.IncreaseSkillCounter();
+                        Console.WriteLine("Te curas 10 puntos de vida. tienes actualmente {0}", jugador.health);
+                        Console.WriteLine("Te quedan {0}, jeringuillas de adrenalina.", jugador.chutes);
+                        Console.WriteLine("El dragón emite un aura de color cobre a su alrededor, creo que va a utilizar su habilidad secreta, el hash-map.");
+                        Console.WriteLine("Pulsa INTRO para continuar");
+                        Console.ReadLine();
+                        Console.Clear();
+                    }
                     break;
 
                 case "8":
@@ -200,7 +215,9 @@ class Draongs_With_AK_47
             {
                 gameFinished = true;
 
-                Console.WriteLine("Lo has conseguido! Has matado al imponente dragón JavaScript! Ahora podrás ir a conseguirte un trabajo de verdad y dejar de perder el tiempo con los videojuegos! o eso diría una madre al menos no?");
+                Console.WriteLine("Lo has conseguido! Has matado al imponente dragón JavaScript! Ahora podrás ir a conseguirte un trabajo de verdad!");
+                Console.WriteLine("Y dejar de perder el tiempo con los videojuegos!");
+                Console.WriteLine("o eso diría una madre al menos no?");
                 Console.WriteLine("En fin, muchas gracias por jugar!");
             }
         } while (!gameFinished);

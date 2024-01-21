@@ -13,10 +13,10 @@ namespace Dragons_With_AK_47
         public  int balasRestantes;
         public  const int BalasMax = 30;
         public  int mags;
-        public  int MaxMags =10;
+        public  int MaxMags =5;
         public  int chutes;
         public  int Maxchutes =3;
-        public bool  firelock,  fireTypeSemi, fireTypeAuto;
+        public bool  firelock,  fireTypeSemi, fireTypeAuto, chutado;
 
         public Jugador() 
         {
@@ -24,6 +24,7 @@ namespace Dragons_With_AK_47
             balasRestantes = BalasMax;
             mags = MaxMags;
             chutes = Maxchutes;
+            chutado = false;
             SetFireLock();
         }
 
@@ -31,12 +32,12 @@ namespace Dragons_With_AK_47
         {
             if (fireTypeSemi) 
             {
-                return 7;
+                return 5;
             }
 
             else if (fireTypeAuto)
             {
-                return 35;
+                return 25;
             }
 
             else 
@@ -77,10 +78,20 @@ namespace Dragons_With_AK_47
             {
                 health = MaxHealth;
             }
+            else if (chutes <= 0)
+            {
+                health += 0;
+            }
             else
             {
                 health += healAmount;
             }
+
+            if (chutado)
+            {
+                chutes--;
+            }
+            
         }
 
         public void PlayerShoot()
